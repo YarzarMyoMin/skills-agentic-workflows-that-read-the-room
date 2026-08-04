@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
+engine:
+  id: copilot
+  model: auto   # suppress COPILOT_MODEL; CLI auto-selects model
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
