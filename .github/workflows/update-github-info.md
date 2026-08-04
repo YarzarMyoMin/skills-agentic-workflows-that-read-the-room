@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
-model: auto   # suppress COPILOT_MODEL; CLI auto-selects model
+model: gpt-5-mini
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
