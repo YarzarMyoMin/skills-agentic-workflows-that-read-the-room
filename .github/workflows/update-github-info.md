@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
-model: gpt-5.4
+engine: gemini
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
