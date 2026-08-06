@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'  
-
+model: claude-sonnet-4.6
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
