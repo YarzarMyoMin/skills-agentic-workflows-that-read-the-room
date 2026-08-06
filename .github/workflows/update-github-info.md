@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'  
-model: claude-sonnet-4.6
+engine: gemini
+model: gemini-3.1-flash-lite
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
