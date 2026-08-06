@@ -15,4 +15,8 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 - GitHub Actions as the automation layer behind repository workflows.
 - Recent GitHub Blog and Changelog stories worth watching.
 ## Latest GitHub Updates
-- GitHub continues to enhance Actions with new security insights and workflow automation features.
+- **Stacked Pull Requests**: Simplify reviews by decomposing large changes into ordered, manageable stacks of pull requests. (Source: GitHub Blog)
+- **Expanded Copilot Models**: Increased flexibility with support for Grok 4.5, Claude Opus 5, and Gemini 3.6 Flash. (Source: GitHub Changelog)
+- **Copilot Automations via Comments**: Initiate repetitive workflows directly from pull request comments. (Source: GitHub Blog)
+- **Repository Overviews**: Get faster onboarding with AI-generated project structure and purpose summaries via Copilot. (Source: GitHub Blog)
+- **Customizable Dependabot Branches**: Align automated updates with team-specific naming conventions. (Source: GitHub Changelog)
