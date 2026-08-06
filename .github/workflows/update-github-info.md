@@ -5,7 +5,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
-engine: gemini
+model: mimo-v2.5
+engine:
+  id: claude    
+
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -18,6 +21,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - proxy.vibecode.tours
 ---
 
 # Update Mona's GitHub Info website
