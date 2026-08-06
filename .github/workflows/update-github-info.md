@@ -4,10 +4,7 @@ description: Draft website updates for Mona's GitHub Info site from official Git
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 9 * * *'
-model: mimo-v2.5
-engine:
-  id: claude    
+    - cron: '17 9 * * *'  
 
 safe-outputs:
   create-pull-request:
@@ -20,8 +17,7 @@ tools:
 network:
   allowed:
     - github.com
-    - github.blog
-    - proxy.vibecode.tours
+    - github.blog    
 ---
 
 # Update Mona's GitHub Info website
